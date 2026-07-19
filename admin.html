@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>管理员 · 技师展示页</title>
+  <link rel="stylesheet" href="assets/css/admin.css?v=20260706-1">
+</head>
+<body>
+  <section class="lock-screen" id="lockScreen">
+    <div class="lock-card">
+      <div class="lock-badge">管</div>
+      <h1>管理员入口</h1>
+      <p>输入密码后编辑当前项目里的技师资料和资源。</p>
+      <div class="lock-row">
+        <input id="passwordInput" type="password" inputmode="numeric" autocomplete="current-password" placeholder="管理员密码">
+        <button class="btn primary" id="unlockBtn" type="button">进入</button>
+      </div>
+      <div class="lock-error" id="lockError"></div>
+      <a class="back-link" href="index.html">返回前台</a>
+    </div>
+  </section>
+
+  <section class="admin-app" id="adminApp" hidden>
+    <header class="admin-topbar">
+      <div class="admin-title">
+        <div class="admin-badge">管</div>
+        <div>
+          <h1>技师管理</h1>
+          <p id="projectStatus">当前项目：F:\ideaProjects\ThingShouldBeRemember</p>
+        </div>
+      </div>
+      <div class="admin-actions">
+        <a class="btn ghost" href="index.html">返回前台</a>
+      </div>
+    </header>
+
+    <main class="admin-shell">
+      <aside class="side-panel">
+        <div class="side-head">
+          <strong>技师列表</strong>
+          <span id="countText">0 位</span>
+        </div>
+        <div class="search-row">
+          <input id="searchInput" type="search" placeholder="搜索号码">
+          <button class="btn compact" id="addTech" type="button">新增</button>
+        </div>
+        <select class="tech-list-select" id="techList" size="12"></select>
+        <div class="folder-status" id="saveStatus">选择技师后编辑资料</div>
+        <button class="btn danger" id="deleteTech" type="button">移出当前技师</button>
+      </aside>
+
+      <section class="workbench">
+        <div class="workspace-head">
+          <div>
+            <h2 id="editorTitle">选择一个技师</h2>
+            <p id="editorSub">信息与资源分开管理</p>
+          </div>
+        </div>
+
+        <section class="info-panel">
+          <div class="panel-head">
+            <div>
+              <h3>技师信息</h3>
+              <p>修改后点击「保存信息」写入本地文件</p>
+            </div>
+          </div>
+          <form id="editorForm" class="form-grid">
+            <label>技师号码<input id="numberInput" required></label>
+            <label>分类<input id="categoryInput" placeholder="例如：星际"></label>
+            <label>年龄<input id="ageInput"></label>
+            <label>歌声<input id="singingInput"></label>
+            <label class="wide">备注<textarea id="commentInput" rows="3"></textarea></label>
+          </form>
+          <div class="form-footer">
+            <span class="folder-status" id="infoStatus"></span>
+            <button class="btn primary" id="saveInfo" type="button">保存信息</button>
+          </div>
+        </section>
+
+        <section class="resource-panel">
+          <div class="panel-head">
+            <div>
+              <h3>资源管理</h3>
+              <p>添加、删除、设封面均为即时操作，自动写入本地</p>
+            </div>
+            <label class="btn file-btn">
+              添加资源
+              <input id="resourceInput" type="file" accept="image/*,video/*" multiple hidden>
+            </label>
+          </div>
+          <div class="cover-row">
+            <div class="cover-preview" id="coverPreview"></div>
+            <p class="cover-hint">当前封面预览，点击下方资源的「设为封面」可更换</p>
+          </div>
+          <div class="media-grid" id="mediaGrid"></div>
+        </section>
+      </section>
+    </main>
+  </section>
+
+  <div class="toast" id="toast" hidden></div>
+  <script src="data.js"></script>
+  <script src="assets/js/admin.js?v=20260706-1"></script>
+</body>
+</html>
