@@ -4,13 +4,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>图鉴</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=20260719-2">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260719-3">
 </head>
 <body>
   <main>
     <div class="utility-bar">
       <div class="summary" id="summary">加载中</div>
-      <a class="admin-link" href="admin.html">管理</a>
+      <div class="utility-actions">
+        <label class="sort-control">
+          <span>排序</span>
+          <select id="sortField" aria-label="选择排序字段">
+            <option value="default">默认顺序</option>
+            <option value="age">年龄</option>
+            <option value="appearance">颜值</option>
+            <option value="figure">身材</option>
+            <option value="cup">罩杯</option>
+            <option value="scale">尺度</option>
+            <option value="singing">歌声</option>
+          </select>
+        </label>
+        <button class="sort-direction" id="sortDirection" type="button" aria-label="当前为从高到低，点击切换为从低到高" disabled>
+          <span id="sortDirectionText">从高到低</span>
+          <span class="sort-arrow" aria-hidden="true">↓</span>
+        </button>
+        <a class="admin-link" href="admin.html">管理</a>
+      </div>
     </div>
     <section class="grid" id="techGrid" aria-label="技师列表"></section>
   </main>
@@ -38,6 +56,6 @@
   </dialog>
 
   <script src="data.js"></script>
-  <script src="assets/js/app.js?v=20260719-2"></script>
+  <script src="assets/js/app.js?v=20260719-3"></script>
 </body>
 </html>

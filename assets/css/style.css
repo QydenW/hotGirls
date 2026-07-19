@@ -21,6 +21,14 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 main { width: min(1240px, calc(100vw - 36px)); margin: 0 auto; padding: 20px 0 48px; }
 .utility-bar { min-height: 38px; margin-bottom: 16px; display: flex; align-items: center; justify-content: space-between; }
 .summary { color: var(--muted); font-size: 13px; font-weight: 600; letter-spacing: .04em; }
+.utility-actions { display: flex; align-items: center; gap: 8px; }
+.sort-control { min-height: 34px; border: 1px solid var(--line); border-radius: 999px; padding: 0 5px 0 13px; display: inline-flex; align-items: center; gap: 7px; color: var(--muted); background: rgba(255, 255, 255, .045); font-size: 11px; font-weight: 700; backdrop-filter: blur(12px); }
+.sort-control select { min-height: 28px; border: 0; border-radius: 999px; padding: 0 27px 0 8px; color: var(--ink); background: var(--surface-2); font: inherit; cursor: pointer; color-scheme: dark; }
+.sort-control select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.sort-direction { min-height: 34px; border: 1px solid var(--line); border-radius: 999px; padding: 0 12px; display: inline-flex; align-items: center; gap: 6px; color: #c6c8d0; background: rgba(255, 255, 255, .045); font-size: 11px; font-weight: 700; backdrop-filter: blur(12px); }
+.sort-direction:not(:disabled):hover { color: var(--ink); background: rgba(255, 255, 255, .09); }
+.sort-direction:disabled { opacity: .42; cursor: default; }
+.sort-arrow { color: var(--accent); font-size: 15px; line-height: 1; }
 .admin-link { min-height: 34px; border: 1px solid var(--line); border-radius: 999px; padding: 0 14px; display: inline-flex; align-items: center; color: #c6c8d0; background: rgba(255, 255, 255, .045); text-decoration: none; font-size: 12px; font-weight: 700; backdrop-filter: blur(12px); }
 .admin-link:hover { color: var(--ink); background: rgba(255, 255, 255, .09); }
 
@@ -67,6 +75,10 @@ dialog::backdrop { background: rgba(3, 4, 6, .82); backdrop-filter: blur(5px); }
 @media (max-width: 720px) {
   main { width: calc(100vw - 20px); padding: 10px 0 28px; }
   .utility-bar { min-height: 32px; margin-bottom: 10px; padding: 0 2px; }
+  .utility-actions { gap: 5px; }
+  .sort-control { min-height: 30px; padding: 0 3px 0 9px; gap: 3px; font-size: 10px; }
+  .sort-control select { min-height: 24px; padding: 0 21px 0 5px; }
+  .sort-direction { min-height: 30px; padding: 0 9px; font-size: 10px; }
   .admin-link { min-height: 30px; padding: 0 11px; font-size: 11px; }
   .summary { font-size: 11px; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
@@ -87,6 +99,12 @@ dialog::backdrop { background: rgba(3, 4, 6, .82); backdrop-filter: blur(5px); }
   .gallery { grid-template-columns: 1fr; gap: 10px; }
   .viewer-stage { grid-template-columns: 38px minmax(0, 1fr) 38px; gap: 4px; }
   .viewer-nav { width: 34px; height: 44px; font-size: 28px; }
+}
+
+@media (max-width: 480px) {
+  .sort-control > span, .sort-direction span:first-child { display: none; }
+  .sort-control { padding-left: 3px; }
+  .sort-direction { width: 30px; padding: 0; justify-content: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {

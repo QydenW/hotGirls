@@ -10,9 +10,14 @@ const viewerTitle = document.getElementById("viewerTitle");
 const detailNumber = document.getElementById("detailNumber");
 const detailNote = document.getElementById("detailNote");
 const detailInfo = document.getElementById("detailInfo");
+const sortField = document.getElementById("sortField");
+const sortDirection = document.getElementById("sortDirection");
+const sortDirectionText = document.getElementById("sortDirectionText");
 
 let activeMedia = [];
 let activeMediaIndex = 0;
+let currentSortField = "default";
+let currentSortDirection = "desc";
 
 summary.textContent = "共 " + techs.length + " 位";
 
@@ -25,6 +30,36 @@ function makeEl(tag, className, text) {
 
 function scoresOf(tech) {
   return tech.info?.scores || {};
+}
+
+function sortableValue(tech, field) {
+  const rawValue = scoresOf(tech)[field];
+  if (rawValue === undefined || rawValue === null || String(rawValue).trim() === "") return null;
+
+  if (field === "cup") {
+    const normalized = String(rawValue).trim().toUpperCase();
+    const match = normalized.match(/[A-Z]+/);
+    if (!match) return null;
+    return [...match[0]].reduce((value, letter) => value * 26 + letter.charCodeAt(0) - 64, 0);
+  }
+
+  const numericValue = Number.parseFloat(String(rawValue).replace(/[^\d.-]/g, ""));
+  return Number.isNaN(numericValue) ? null : numericValue;
+}
+
+function sortedTechs() {
+  if (currentSortField === "default") return [...techs];
+
+  return techs
+    .map((tech, originalIndex) => ({ tech, originalIndex, value: sortableValue(tech, currentSortField) }))
+    .sort((a, b) => {
+      if (a.value === null && b.value === null) return a.originalIndex - b.originalIndex;
+      if (a.value === null) return 1;
+      if (b.value === null) return -1;
+      if (a.value === b.value) return a.originalIndex - b.originalIndex;
+      return currentSortDirection === "asc" ? a.value - b.value : b.value - a.value;
+    })
+    .map(({ tech }) => tech);
 }
 
 function singingOf(scores) {
@@ -47,6 +82,7 @@ function infoItems(tech) {
   const scores = scoresOf(tech);
   return [
     ["年龄", scores.age || "-"],
+    ["颜值", scores.appearance || "-"],
     ["歌声", singingOf(scores) || "-"],
     ["身材", figureOf(scores) || "-"],
     ["罩杯", cupOf(scores) || "-"],
@@ -143,43 +179,72 @@ function openDetail(tech) {
   detail.showModal();
 }
 
-techs.forEach((tech, techIndex) => {
-  const card = makeEl("button", "card");
-  card.type = "button";
-  card.addEventListener("click", () => openDetail(tech));
+function renderCards() {
+  grid.innerHTML = "";
 
-  const avatar = makeEl("div", "avatar");
-  const img = document.createElement("img");
-  img.src = tech.avatar;
-  img.alt = "技师 " + tech.number + " 头像";
-  img.loading = techIndex < 6 ? "eager" : "lazy";
-  img.fetchPriority = techIndex < 6 ? "high" : "auto";
-  img.decoding = "async";
-  avatar.appendChild(img);
+  sortedTechs().forEach((tech, techIndex) => {
+    const card = makeEl("button", "card");
+    card.type = "button";
+    card.addEventListener("click", () => openDetail(tech));
 
-  const head = makeEl("div", "card-head");
-  head.appendChild(makeEl("div", "number", tech.number));
-  if (tech.category) head.appendChild(makeEl("div", "tag", tech.category));
-  avatar.appendChild(head);
+    const avatar = makeEl("div", "avatar");
+    const img = document.createElement("img");
+    img.src = tech.avatar;
+    img.alt = "技师 " + tech.number + " 头像";
+    img.loading = techIndex < 6 ? "eager" : "lazy";
+    img.fetchPriority = techIndex < 6 ? "high" : "auto";
+    img.decoding = "async";
+    avatar.appendChild(img);
 
-  const info = makeEl("div", "card-info");
+    const head = makeEl("div", "card-head");
+    head.appendChild(makeEl("div", "number", tech.number));
+    if (tech.category) head.appendChild(makeEl("div", "tag", tech.category));
+    avatar.appendChild(head);
 
-  const facts = makeEl("div", "facts");
-  infoItems(tech).forEach(([label, value]) => {
-    const item = makeEl("div", "fact");
-    item.appendChild(makeEl("span", "fact-label", label));
-    item.appendChild(makeEl("strong", "fact-value", value));
-    facts.appendChild(item);
+    const info = makeEl("div", "card-info");
+    const facts = makeEl("div", "facts");
+    infoItems(tech).forEach(([label, value]) => {
+      const item = makeEl("div", "fact");
+      item.appendChild(makeEl("span", "fact-label", label));
+      item.appendChild(makeEl("strong", "fact-value", value));
+      facts.appendChild(item);
+    });
+    if (facts.children.length) {
+      info.appendChild(facts);
+    } else {
+      info.appendChild(makeEl("div", "meta", "资料待补"));
+    }
+
+    card.append(avatar, info);
+    grid.appendChild(card);
   });
-  if (facts.children.length) {
-    info.appendChild(facts);
-  } else {
-    info.appendChild(makeEl("div", "meta", "资料待补"));
-  }
+}
 
-  card.append(avatar, info);
-  grid.appendChild(card);
+function updateSortDirection() {
+  const isDefault = currentSortField === "default";
+  const isAscending = currentSortDirection === "asc";
+  sortDirection.disabled = isDefault;
+  sortDirectionText.textContent = isAscending ? "从低到高" : "从高到低";
+  sortDirection.querySelector(".sort-arrow").textContent = isAscending ? "↑" : "↓";
+  sortDirection.setAttribute(
+    "aria-label",
+    isAscending ? "当前为从低到高，点击切换为从高到低" : "当前为从高到低，点击切换为从低到高"
+  );
+}
+
+sortField.addEventListener("change", () => {
+  currentSortField = sortField.value;
+  updateSortDirection();
+  renderCards();
 });
+
+sortDirection.addEventListener("click", () => {
+  currentSortDirection = currentSortDirection === "asc" ? "desc" : "asc";
+  updateSortDirection();
+  renderCards();
+});
+
+renderCards();
 
 document.getElementById("closeDetail").addEventListener("click", () => detail.close());
 document.getElementById("closeViewer").addEventListener("click", () => {

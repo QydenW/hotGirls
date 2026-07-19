@@ -1128,7 +1128,7 @@ window.TECHNICIANS = [
         "figure": "7.8",
         "cup": "A",
         "scale": "6",
-        "age": "27",
+        "age": "23",
         "singing": "8"
       },
       "comment": "彝族帮老大"
