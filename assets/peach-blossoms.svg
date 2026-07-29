@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" fill="none">
+  <g opacity=".8">
+    <path d="M935 23C766 55 709 143 623 207c-83 62-172 67-275 88-91 18-159 54-237 120" stroke="#7d405b" stroke-width="11" stroke-linecap="round"/>
+    <path d="M713 150c-5-53 10-96 51-137M633 204c-51-15-93-10-136 18M480 267c-8-42 2-79 28-112M354 294c-55-5-99 10-143 42" stroke="#7d405b" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffb1c8" stroke="#ffe4ec" stroke-width="3">
+    <g transform="translate(770 58)">
+      <ellipse rx="26" ry="13" transform="rotate(-90) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(-18) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(54) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(126) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(198) translate(0 -18)"/>
+      <circle r="8" fill="#ffd166" stroke="none"/>
+    </g>
+    <g transform="translate(631 198) scale(.82)">
+      <ellipse rx="26" ry="13" transform="rotate(-90) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(-18) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(54) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(126) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(198) translate(0 -18)"/>
+      <circle r="8" fill="#ffd166" stroke="none"/>
+    </g>
+    <g transform="translate(484 257) scale(.62)">
+      <ellipse rx="26" ry="13" transform="rotate(-90) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(-18) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(54) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(126) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(198) translate(0 -18)"/>
+      <circle r="8" fill="#ffd166" stroke="none"/>
+    </g>
+    <g transform="translate(323 303) scale(.72)">
+      <ellipse rx="26" ry="13" transform="rotate(-90) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(-18) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(54) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(126) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(198) translate(0 -18)"/>
+      <circle r="8" fill="#ffd166" stroke="none"/>
+    </g>
+    <g transform="translate(194 355) scale(.5)">
+      <ellipse rx="26" ry="13" transform="rotate(-90) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(-18) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(54) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(126) translate(0 -18)"/>
+      <ellipse rx="26" ry="13" transform="rotate(198) translate(0 -18)"/>
+      <circle r="8" fill="#ffd166" stroke="none"/>
+    </g>
+  </g>
+  <g fill="#ffd3df">
+    <circle cx="700" cy="123" r="8"/>
+    <circle cx="553" cy="226" r="6"/>
+    <circle cx="408" cy="278" r="7"/>
+    <circle cx="264" cy="326" r="5"/>
+    <circle cx="846" cy="36" r="6"/>
+  </g>
+</svg>
