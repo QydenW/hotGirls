@@ -139,6 +139,11 @@ window.TECHNICIANS = [
         "type": "image",
         "title": "107 照片 1",
         "src": "assets/media/107/photo-1.jpg"
+      },
+      {
+        "type": "image",
+        "title": "107 照片 2",
+        "src": "assets/media/107/photo-2.jpg"
       }
     ],
     "info": {
@@ -385,6 +390,56 @@ window.TECHNICIANS = [
     }
   },
   {
+    "number": "128",
+    "category": "",
+    "note": "颜值 7 · 外观年龄约 26",
+    "avatar": "assets/media/128/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "128 照片 1",
+        "src": "assets/media/128/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "128",
+      "scores": {
+        "appearance": "7",
+        "figure": "",
+        "cup": "",
+        "scale": "",
+        "age": "26",
+        "singing": ""
+      },
+      "comment": "年龄为照片外观估计"
+    }
+  },
+  {
+    "number": "132",
+    "category": "",
+    "note": "颜值 7.2 · 外观年龄约 25",
+    "avatar": "assets/media/132/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "132 照片 1",
+        "src": "assets/media/132/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "132",
+      "scores": {
+        "appearance": "7.2",
+        "figure": "",
+        "cup": "",
+        "scale": "",
+        "age": "25",
+        "singing": ""
+      },
+      "comment": "年龄为照片外观估计"
+    }
+  },
+  {
     "number": "133",
     "category": "星际",
     "note": "颜值 7 · 身材 7 · 尺度 6",
@@ -627,6 +682,31 @@ window.TECHNICIANS = [
         "singing": ""
       },
       "comment": "广州帮"
+    }
+  },
+  {
+    "number": "183",
+    "category": "",
+    "note": "颜值 7.5 · 外观年龄约 23",
+    "avatar": "assets/media/183/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "183 照片 1",
+        "src": "assets/media/183/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "183",
+      "scores": {
+        "appearance": "7.5",
+        "figure": "",
+        "cup": "",
+        "scale": "",
+        "age": "23",
+        "singing": ""
+      },
+      "comment": "年龄为照片外观估计"
     }
   },
   {
@@ -1085,6 +1165,31 @@ window.TECHNICIANS = [
     }
   },
   {
+    "number": "887",
+    "category": "",
+    "note": "颜值 7.2 · 外观年龄约 23",
+    "avatar": "assets/media/887/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "887 照片 1",
+        "src": "assets/media/887/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "887",
+      "scores": {
+        "appearance": "7.2",
+        "figure": "",
+        "cup": "",
+        "scale": "",
+        "age": "23",
+        "singing": ""
+      },
+      "comment": "年龄为照片外观估计"
+    }
+  },
+  {
     "number": "888",
     "category": "星际",
     "note": "颜值 7.5 · 身材 7.8 · 尺度 6",
@@ -1167,6 +1272,36 @@ window.TECHNICIANS = [
         "singing": ""
       },
       "comment": ""
+    }
+  },
+  {
+    "number": "996",
+    "category": "",
+    "note": "颜值 7.5 · 外观年龄约 23",
+    "avatar": "assets/media/996/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "996 视频封面",
+        "src": "assets/media/996/photo-1.jpg"
+      },
+      {
+        "type": "video",
+        "title": "996 视频 1",
+        "src": "assets/media/996/video-1.mp4"
+      }
+    ],
+    "info": {
+      "number": "996",
+      "scores": {
+        "appearance": "7.5",
+        "figure": "",
+        "cup": "",
+        "scale": "",
+        "age": "23",
+        "singing": ""
+      },
+      "comment": "年龄为视频外观估计"
     }
   }
 ];
