@@ -465,6 +465,31 @@ window.TECHNICIANS = [
     }
   },
   {
+    "number": "139",
+    "category": "",
+    "note": "颜值 7 · 外观年龄约 25",
+    "avatar": "assets/media/139/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "139 照片 1",
+        "src": "assets/media/139/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "139",
+      "scores": {
+        "appearance": "7",
+        "figure": "",
+        "cup": "",
+        "scale": "",
+        "age": "25",
+        "singing": ""
+      },
+      "comment": "年龄为照片外观估计"
+    }
+  },
+  {
     "number": "150",
     "category": "星际",
     "note": "颜值 6.5 · 身材 7 · 尺度 5",
