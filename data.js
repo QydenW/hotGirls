@@ -285,24 +285,29 @@ window.TECHNICIANS = [
     }
   },
   {
-    "number": "122",
+    "number": "131",
     "category": "星际",
     "note": "",
-    "avatar": "assets/media/122/photo-2.jpg",
+    "avatar": "assets/media/131/photo-3.jpg",
     "media": [
       {
         "type": "image",
-        "title": "122 照片 1",
-        "src": "assets/media/122/photo-1.jpg"
+        "title": "131 照片 1",
+        "src": "assets/media/131/photo-1.jpg"
       },
       {
         "type": "image",
-        "title": "122 照片 2",
-        "src": "assets/media/122/photo-2.jpg"
+        "title": "131 照片 2",
+        "src": "assets/media/131/photo-2.jpg"
+      },
+      {
+        "type": "image",
+        "title": "131 照片 3",
+        "src": "assets/media/131/photo-3.jpg"
       }
     ],
     "info": {
-      "number": "122",
+      "number": "131",
       "scores": {
         "appearance": "6",
         "figure": "7",
@@ -1160,24 +1165,29 @@ window.TECHNICIANS = [
     }
   },
   {
-    "number": "855",
+    "number": "130",
     "category": "",
     "note": "",
-    "avatar": "assets/media/855/photo-2.jpg",
+    "avatar": "assets/media/130/photo-3.jpg",
     "media": [
       {
         "type": "image",
-        "title": "855 照片 1",
-        "src": "assets/media/855/photo-1.jpg"
+        "title": "130 照片 1",
+        "src": "assets/media/130/photo-1.jpg"
       },
       {
         "type": "image",
-        "title": "855 照片 2",
-        "src": "assets/media/855/photo-2.jpg"
+        "title": "130 照片 2",
+        "src": "assets/media/130/photo-2.jpg"
+      },
+      {
+        "type": "image",
+        "title": "130 照片 3",
+        "src": "assets/media/130/photo-3.jpg"
       }
     ],
     "info": {
-      "number": "855",
+      "number": "130",
       "scores": {
         "appearance": "",
         "figure": "",
