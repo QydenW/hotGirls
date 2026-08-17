@@ -932,31 +932,26 @@ window.TECHNICIANS = [
   {
     "number": "555",
     "category": "星际",
-    "note": "颜值 8 · 身材 8 · 尺度 6",
-    "avatar": "assets/media/555/photo-3.jpg",
+    "note": "",
+    "avatar": "assets/media/555/photo-1.jpg",
     "media": [
       {
         "type": "image",
-        "title": "555 照片 2",
-        "src": "assets/media/555/photo-2.jpg"
-      },
-      {
-        "type": "image",
-        "title": "555 照片 3",
-        "src": "assets/media/555/photo-3.jpg"
+        "title": "555 照片 1",
+        "src": "assets/media/555/photo-1.jpg"
       }
     ],
     "info": {
       "number": "555",
       "scores": {
-        "appearance": "8",
-        "figure": "8",
-        "cup": "B",
-        "scale": "6",
-        "age": "25",
+        "appearance": "",
+        "figure": "",
+        "cup": "",
+        "scale": "",
+        "age": "",
         "singing": ""
       },
-      "comment": "1.7大长腿"
+      "comment": ""
     }
   },
   {
