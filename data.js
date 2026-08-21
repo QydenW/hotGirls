@@ -712,7 +712,7 @@ window.TECHNICIANS = [
   {
     "number": "180",
     "category": "星际",
-    "note": "颜值 5 · 身材 5 · 尺度 4",
+    "note": "",
     "avatar": "assets/media/180/photo-1.jpg",
     "media": [
       {
@@ -724,10 +724,10 @@ window.TECHNICIANS = [
     "info": {
       "number": "180",
       "scores": {
-        "appearance": "5",
-        "figure": "5",
+        "appearance": "",
+        "figure": "",
         "cup": "",
-        "scale": "4",
+        "scale": "",
         "age": "",
         "singing": ""
       },
