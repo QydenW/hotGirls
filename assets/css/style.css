@@ -69,6 +69,10 @@ main { position: relative; z-index: 1; width: min(1240px, calc(100vw - 36px)); m
 
 dialog { width: min(980px, calc(100vw - 24px)); border: 1px solid var(--line); border-radius: 20px; padding: 0; color: var(--ink); background: #111319; box-shadow: 0 30px 100px rgba(0, 0, 0, .65); }
 dialog::backdrop { background: rgba(3, 4, 6, .82); backdrop-filter: blur(5px); }
+.recommendation { width: min(760px, calc(100vw - 24px)); border: 0; border-radius: 20px; overflow: hidden; background: transparent; box-shadow: 0 30px 100px rgba(0, 0, 0, .78); }
+.recommendation::backdrop { background: rgba(3, 4, 6, .86); backdrop-filter: blur(7px); }
+.recommendation-card { width: 100%; display: grid; place-items: center; padding: 0; color: inherit; background: transparent; }
+.recommendation-card img { display: block; width: auto; max-width: 100%; height: min(88vh, 900px); max-height: calc(100vh - 32px); border-radius: 20px; object-fit: contain; background: #08090b; }
 .detail-head { min-height: 66px; padding: 14px 18px; border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 14px; }
 .detail-head strong { display: block; font-size: 24px; line-height: 1.2; }
 .btn { min-width: 42px; min-height: 38px; border: 1px solid var(--line); border-radius: 999px; padding: 0 14px; display: inline-flex; align-items: center; justify-content: center; color: var(--ink); background: rgba(255, 255, 255, .07); font-weight: 700; }
@@ -112,6 +116,8 @@ dialog::backdrop { background: rgba(3, 4, 6, .82); backdrop-filter: blur(5px); }
   .fact-label { font-size: 7px; }
   .fact-value { margin-top: 2px; font-size: 11px; }
   dialog { border-radius: 16px; }
+  .recommendation, .recommendation-card img { border-radius: 14px; }
+  .recommendation-card img { width: 100%; height: auto; }
   .detail-head { min-height: 58px; padding: 10px 12px; }
   .detail-head strong { font-size: 20px; }
   .detail-body { padding: 10px; }

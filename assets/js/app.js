@@ -4,6 +4,8 @@ const grid = document.getElementById("techGrid");
 const summary = document.getElementById("summary");
 const detail = document.getElementById("detail");
 const viewer = document.getElementById("viewer");
+const recommendation = document.getElementById("recommendation");
+const recommendationImage = document.getElementById("recommendationImage");
 const gallery = document.getElementById("gallery");
 const viewerBody = document.getElementById("viewerBody");
 const viewerTitle = document.getElementById("viewerTitle");
@@ -220,6 +222,13 @@ function renderCards() {
   });
 }
 
+function showRecommendation() {
+  const recommendedTech = techs.find((tech) => tech.number === "123");
+  if (!recommendedTech?.avatar || !recommendation || !recommendationImage) return;
+  recommendationImage.src = recommendedTech.avatar;
+  recommendation.showModal();
+}
+
 function updateSortDirection() {
   const isDefault = currentSortField === "default";
   const isAscending = currentSortDirection === "asc";
@@ -245,7 +254,9 @@ sortDirection.addEventListener("click", () => {
 });
 
 renderCards();
+showRecommendation();
 
+document.getElementById("closeRecommendation").addEventListener("click", () => recommendation.close());
 document.getElementById("closeDetail").addEventListener("click", () => detail.close());
 document.getElementById("closeViewer").addEventListener("click", () => {
   viewer.close();
@@ -256,6 +267,10 @@ document.getElementById("closeViewer").addEventListener("click", () => {
 
 detail.addEventListener("click", (event) => {
   if (event.target === detail) detail.close();
+});
+
+recommendation.addEventListener("click", (event) => {
+  if (event.target === recommendation) recommendation.close();
 });
 
 viewer.addEventListener("click", (event) => {

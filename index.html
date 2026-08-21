@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>图鉴</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260729-1">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260821-1">
 </head>
 <body>
   <main>
@@ -34,6 +34,12 @@
     <section class="grid" id="techGrid" aria-label="技师列表"></section>
   </main>
 
+  <dialog id="recommendation" class="recommendation" aria-label="推荐 123">
+    <button id="closeRecommendation" class="recommendation-card" type="button" aria-label="关闭 123 推荐">
+      <img id="recommendationImage" alt="推荐 123">
+    </button>
+  </dialog>
+
   <dialog id="detail">
     <div class="detail-head">
       <div>
@@ -57,6 +63,6 @@
   </dialog>
 
   <script src="data.js"></script>
-  <script src="assets/js/app.js?v=20260719-3"></script>
+  <script src="assets/js/app.js?v=20260821-1"></script>
 </body>
 </html>
