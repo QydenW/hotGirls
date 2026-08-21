@@ -27,31 +27,26 @@ window.TECHNICIANS = [
   {
     "number": "100",
     "category": "星际",
-    "note": "颜值 6.5 · 身材 7.5 · 尺度 7",
-    "avatar": "assets/media/100/photo-2.jpg",
+    "note": "",
+    "avatar": "assets/media/100/photo-1.jpg",
     "media": [
       {
         "type": "image",
         "title": "100 照片 1",
         "src": "assets/media/100/photo-1.jpg"
-      },
-      {
-        "type": "image",
-        "title": "100 照片 2",
-        "src": "assets/media/100/photo-2.jpg"
       }
     ],
     "info": {
       "number": "100",
       "scores": {
-        "appearance": "6.5",
-        "figure": "7.5",
-        "cup": "C",
-        "scale": "7",
+        "appearance": "",
+        "figure": "",
+        "cup": "",
+        "scale": "",
         "age": "",
         "singing": ""
       },
-      "comment": "广州帮，套路多"
+      "comment": ""
     }
   },
   {
@@ -640,6 +635,31 @@ window.TECHNICIANS = [
     }
   },
   {
+    "number": "169",
+    "category": "",
+    "note": "",
+    "avatar": "assets/media/169/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "169 照片 1",
+        "src": "assets/media/169/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "169",
+      "scores": {
+        "appearance": "",
+        "figure": "",
+        "cup": "",
+        "scale": "",
+        "age": "",
+        "singing": ""
+      },
+      "comment": ""
+    }
+  },
+  {
     "number": "177",
     "category": "星际",
     "note": "颜值 7.5 · 身材 7.5 · 尺度 3",
@@ -1014,6 +1034,16 @@ window.TECHNICIANS = [
         "type": "image",
         "title": "666 照片 1",
         "src": "assets/media/666/photo-1.jpg"
+      },
+      {
+        "type": "image",
+        "title": "666 照片 2",
+        "src": "assets/media/666/extra-1.jpg"
+      },
+      {
+        "type": "image",
+        "title": "666 照片 3",
+        "src": "assets/media/666/extra-2.jpg"
       }
     ],
     "info": {
@@ -1023,7 +1053,7 @@ window.TECHNICIANS = [
         "figure": "8",
         "cup": "B",
         "scale": "5",
-        "age": "36",
+        "age": "25",
         "singing": ""
       },
       "comment": ""
@@ -1032,31 +1062,26 @@ window.TECHNICIANS = [
   {
     "number": "777",
     "category": "星际",
-    "note": "颜值 9 · 身材 9 · 尺度 3",
+    "note": "",
     "avatar": "assets/media/777/photo-1.jpg",
     "media": [
       {
         "type": "image",
         "title": "777 照片 1",
         "src": "assets/media/777/photo-1.jpg"
-      },
-      {
-        "type": "video",
-        "title": "777 视频 2",
-        "src": "assets/media/777/extra-1.mp4"
       }
     ],
     "info": {
       "number": "777",
       "scores": {
-        "appearance": "9",
-        "figure": "9",
+        "appearance": "",
+        "figure": "",
         "cup": "",
-        "scale": "3",
+        "scale": "",
         "age": "",
         "singing": ""
       },
-      "comment": "离职"
+      "comment": ""
     }
   },
   {
@@ -1094,15 +1119,20 @@ window.TECHNICIANS = [
         "type": "image",
         "title": "806 照片 1",
         "src": "assets/media/806/photo-1.jpg"
+      },
+      {
+        "type": "image",
+        "title": "806 照片 2",
+        "src": "assets/media/806/photo-2.jpg"
       }
     ],
     "info": {
       "number": "806",
       "scores": {
-        "appearance": "6",
-        "figure": "7",
+        "appearance": "",
+        "figure": "",
         "cup": "",
-        "scale": "5",
+        "scale": "",
         "age": "",
         "singing": ""
       },
@@ -1279,6 +1309,11 @@ window.TECHNICIANS = [
         "type": "video",
         "title": "888 视频 6",
         "src": "assets/media/888/video-1.mp4"
+      },
+      {
+        "type": "video",
+        "title": "888 视频 7",
+        "src": "assets/media/888/video-2.mp4"
       }
     ],
     "info": {
@@ -1292,41 +1327,6 @@ window.TECHNICIANS = [
         "singing": "8"
       },
       "comment": "彝族帮老大"
-    }
-  },
-  {
-    "number": "988",
-    "category": "星际",
-    "note": "颜值 8 · 身材 8 · 尺度 5",
-    "avatar": "assets/media/988/photo-1.jpg",
-    "media": [
-      {
-        "type": "image",
-        "title": "988 照片 1",
-        "src": "assets/media/988/photo-1.jpg"
-      },
-      {
-        "type": "image",
-        "title": "988 照片 2",
-        "src": "assets/media/988/extra-1.jpg"
-      },
-      {
-        "type": "image",
-        "title": "988 照片 3",
-        "src": "assets/media/988/extra-2.jpg"
-      }
-    ],
-    "info": {
-      "number": "988",
-      "scores": {
-        "appearance": "8",
-        "figure": "8",
-        "cup": "B",
-        "scale": "5",
-        "age": "25",
-        "singing": ""
-      },
-      "comment": ""
     }
   },
   {
