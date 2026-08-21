@@ -719,6 +719,11 @@ window.TECHNICIANS = [
         "type": "image",
         "title": "180 照片 1",
         "src": "assets/media/180/photo-1.jpg"
+      },
+      {
+        "type": "image",
+        "title": "180 照片 2",
+        "src": "assets/media/180/photo-2.jpg"
       }
     ],
     "info": {
