@@ -27,7 +27,7 @@ window.TECHNICIANS = [
   {
     "number": "100",
     "category": "星际",
-    "note": "",
+    "note": "颜值 7.8 · 身材 7.2",
     "avatar": "assets/media/100/photo-1.jpg",
     "media": [
       {
@@ -39,8 +39,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "100",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7.8",
+        "figure": "7.2",
         "cup": "",
         "scale": "",
         "age": "",
@@ -77,7 +77,7 @@ window.TECHNICIANS = [
   {
     "number": "105",
     "category": "",
-    "note": "",
+    "note": "颜值 7.3 · 身材 6.8",
     "avatar": "assets/media/105/photo-1.jpg",
     "media": [
       {
@@ -89,8 +89,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "105",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7.3",
+        "figure": "6.8",
         "cup": "",
         "scale": "",
         "age": "",
@@ -202,6 +202,31 @@ window.TECHNICIANS = [
         "singing": ""
       },
       "comment": "彝族帮"
+    }
+  },
+  {
+    "number": "112",
+    "category": "",
+    "note": "颜值 7.6 · 身材 7.3",
+    "avatar": "assets/media/112/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "112 照片 1",
+        "src": "assets/media/112/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "112",
+      "scores": {
+        "appearance": "7.6",
+        "figure": "7.3",
+        "cup": "",
+        "scale": "",
+        "age": "",
+        "singing": ""
+      },
+      "comment": ""
     }
   },
   {
@@ -367,7 +392,7 @@ window.TECHNICIANS = [
   {
     "number": "126",
     "category": "",
-    "note": "",
+    "note": "颜值 7.2 · 身材 6.5",
     "avatar": "assets/media/126/photo-1.jpg",
     "media": [
       {
@@ -379,8 +404,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "126",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7.2",
+        "figure": "6.5",
         "cup": "",
         "scale": "",
         "age": "",
@@ -637,7 +662,7 @@ window.TECHNICIANS = [
   {
     "number": "169",
     "category": "",
-    "note": "",
+    "note": "颜值 7.5 · 身材 6.8",
     "avatar": "assets/media/169/photo-1.jpg",
     "media": [
       {
@@ -649,8 +674,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "169",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7.5",
+        "figure": "6.8",
         "cup": "",
         "scale": "",
         "age": "",
@@ -712,7 +737,7 @@ window.TECHNICIANS = [
   {
     "number": "180",
     "category": "星际",
-    "note": "",
+    "note": "颜值 8 · 身材 8",
     "avatar": "assets/media/180/photo-1.jpg",
     "media": [
       {
@@ -729,8 +754,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "180",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "8",
+        "figure": "8",
         "cup": "",
         "scale": "",
         "age": "",
@@ -932,7 +957,7 @@ window.TECHNICIANS = [
   {
     "number": "333",
     "category": "",
-    "note": "",
+    "note": "颜值 7.4 · 身材 6.8",
     "avatar": "assets/media/333/photo-1.jpg",
     "media": [
       {
@@ -944,8 +969,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "333",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7.4",
+        "figure": "6.8",
         "cup": "",
         "scale": "",
         "age": "",
@@ -957,7 +982,7 @@ window.TECHNICIANS = [
   {
     "number": "555",
     "category": "星际",
-    "note": "",
+    "note": "颜值 7.2 · 身材 7",
     "avatar": "assets/media/555/photo-1.jpg",
     "media": [
       {
@@ -969,8 +994,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "555",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7.2",
+        "figure": "7",
         "cup": "",
         "scale": "",
         "age": "",
@@ -982,7 +1007,7 @@ window.TECHNICIANS = [
   {
     "number": "611",
     "category": "",
-    "note": "",
+    "note": "颜值 7 · 身材 6.5",
     "avatar": "assets/media/611/photo-1.jpg",
     "media": [
       {
@@ -994,8 +1019,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "611",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7",
+        "figure": "6.5",
         "cup": "",
         "scale": "",
         "age": "",
@@ -1007,7 +1032,7 @@ window.TECHNICIANS = [
   {
     "number": "633",
     "category": "",
-    "note": "",
+    "note": "颜值 6.8 · 身材 6.5",
     "avatar": "assets/media/633/photo-1.jpg",
     "media": [
       {
@@ -1019,8 +1044,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "633",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "6.8",
+        "figure": "6.5",
         "cup": "",
         "scale": "",
         "age": "",
@@ -1067,7 +1092,7 @@ window.TECHNICIANS = [
   {
     "number": "777",
     "category": "星际",
-    "note": "",
+    "note": "颜值 8 · 身材 8",
     "avatar": "assets/media/777/photo-1.jpg",
     "media": [
       {
@@ -1079,8 +1104,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "777",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "8",
+        "figure": "8",
         "cup": "",
         "scale": "",
         "age": "",
@@ -1117,7 +1142,7 @@ window.TECHNICIANS = [
   {
     "number": "806",
     "category": "星际",
-    "note": "",
+    "note": "颜值 7.5 · 身材 6.8",
     "avatar": "assets/media/806/photo-1.jpg",
     "media": [
       {
@@ -1134,8 +1159,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "806",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7.5",
+        "figure": "6.8",
         "cup": "",
         "scale": "",
         "age": "",
@@ -1172,7 +1197,7 @@ window.TECHNICIANS = [
   {
     "number": "826",
     "category": "",
-    "note": "",
+    "note": "颜值 7.5 · 身材 8",
     "avatar": "assets/media/826/photo-1.jpg",
     "media": [
       {
@@ -1184,8 +1209,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "826",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7.5",
+        "figure": "8",
         "cup": "",
         "scale": "",
         "age": "",
@@ -1197,7 +1222,7 @@ window.TECHNICIANS = [
   {
     "number": "130",
     "category": "",
-    "note": "",
+    "note": "颜值 7 · 身材 6.5",
     "avatar": "assets/media/130/photo-3.jpg",
     "media": [
       {
@@ -1219,8 +1244,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "130",
       "scores": {
-        "appearance": "",
-        "figure": "",
+        "appearance": "7",
+        "figure": "6.5",
         "cup": "",
         "scale": "",
         "age": "",
