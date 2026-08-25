@@ -258,16 +258,11 @@ window.TECHNICIANS = [
     "number": "118",
     "category": "",
     "note": "颜值 6.8 · 身材 7.2",
-    "avatar": "assets/media/118/photo-1.jpg",
+    "avatar": "assets/media/118/cover.jpg",
     "media": [
       {
-        "type": "image",
-        "title": "118 照片 1",
-        "src": "assets/media/118/photo-1.jpg"
-      },
-      {
         "type": "video",
-        "title": "118 视频 2",
+        "title": "118 视频 1",
         "src": "assets/media/118/video-1.mp4"
       }
     ],
