@@ -660,6 +660,31 @@ window.TECHNICIANS = [
     }
   },
   {
+    "number": "168",
+    "category": "",
+    "note": "颜值 7.3 · 身材 7.2",
+    "avatar": "assets/media/168/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "168 照片 1",
+        "src": "assets/media/168/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "168",
+      "scores": {
+        "appearance": "7.3",
+        "figure": "7.2",
+        "cup": "",
+        "scale": "",
+        "age": "",
+        "singing": ""
+      },
+      "comment": ""
+    }
+  },
+  {
     "number": "169",
     "category": "",
     "note": "颜值 7.5 · 身材 6.8",
