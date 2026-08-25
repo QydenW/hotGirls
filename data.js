@@ -255,6 +255,36 @@ window.TECHNICIANS = [
     }
   },
   {
+    "number": "118",
+    "category": "",
+    "note": "颜值 6.8 · 身材 7.2",
+    "avatar": "assets/media/118/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "118 照片 1",
+        "src": "assets/media/118/photo-1.jpg"
+      },
+      {
+        "type": "video",
+        "title": "118 视频 2",
+        "src": "assets/media/118/video-1.mp4"
+      }
+    ],
+    "info": {
+      "number": "118",
+      "scores": {
+        "appearance": "6.8",
+        "figure": "7.2",
+        "cup": "",
+        "scale": "",
+        "age": "",
+        "singing": ""
+      },
+      "comment": ""
+    }
+  },
+  {
     "number": "119",
     "category": "星际",
     "note": "颜值 7 · 身材 7 · 尺度 6",
