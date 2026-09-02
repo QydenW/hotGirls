@@ -207,7 +207,7 @@ window.TECHNICIANS = [
   {
     "number": "112",
     "category": "",
-    "note": "颜值 7.6 · 身材 7.3",
+    "note": "颜值 7.6 · 身材 7.3 · 尺度 3",
     "avatar": "assets/media/112/photo-1.jpg",
     "media": [
       {
@@ -222,11 +222,11 @@ window.TECHNICIANS = [
         "appearance": "7.6",
         "figure": "7.3",
         "cup": "",
-        "scale": "",
+        "scale": "3",
         "age": "",
         "singing": ""
       },
-      "comment": ""
+      "comment": "人照不符"
     }
   },
   {
@@ -257,7 +257,7 @@ window.TECHNICIANS = [
   {
     "number": "118",
     "category": "",
-    "note": "颜值 6.8 · 身材 7.2",
+    "note": "颜值 6.8 · 身材 7.2 · 尺度 6",
     "avatar": "assets/media/118/cover.jpg",
     "media": [
       {
@@ -272,11 +272,11 @@ window.TECHNICIANS = [
         "appearance": "6.8",
         "figure": "7.2",
         "cup": "",
-        "scale": "",
+        "scale": "6",
         "age": "",
         "singing": ""
       },
-      "comment": ""
+      "comment": "真人比照片好看一点"
     }
   },
   {
@@ -417,7 +417,7 @@ window.TECHNICIANS = [
   {
     "number": "126",
     "category": "",
-    "note": "颜值 7.2 · 身材 6.5",
+    "note": "颜值 7.4 · 身材 7.2",
     "avatar": "assets/media/126/photo-1.jpg",
     "media": [
       {
@@ -429,8 +429,8 @@ window.TECHNICIANS = [
     "info": {
       "number": "126",
       "scores": {
-        "appearance": "7.2",
-        "figure": "6.5",
+        "appearance": "7.4",
+        "figure": "7.2",
         "cup": "",
         "scale": "",
         "age": "",
@@ -1330,19 +1330,19 @@ window.TECHNICIANS = [
     }
   },
   {
-    "number": "887",
+    "number": "187",
     "category": "",
     "note": "颜值 7.2 · 外观年龄约 23",
-    "avatar": "assets/media/887/photo-1.jpg",
+    "avatar": "assets/media/187/photo-1.jpg",
     "media": [
       {
         "type": "image",
-        "title": "887 照片 1",
-        "src": "assets/media/887/photo-1.jpg"
+        "title": "187 照片 1",
+        "src": "assets/media/187/photo-1.jpg"
       }
     ],
     "info": {
-      "number": "887",
+      "number": "187",
       "scores": {
         "appearance": "7.2",
         "figure": "",
