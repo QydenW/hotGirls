@@ -77,7 +77,7 @@ window.TECHNICIANS = [
   {
     "number": "105",
     "category": "",
-    "note": "颜值 7.3 · 身材 6.8",
+    "note": "颜值 7.3 · 身材 6.8 · 尺度 3",
     "avatar": "assets/media/105/photo-1.jpg",
     "media": [
       {
@@ -92,7 +92,7 @@ window.TECHNICIANS = [
         "appearance": "7.3",
         "figure": "6.8",
         "cup": "",
-        "scale": "",
+        "scale": "3",
         "age": "",
         "singing": ""
       },
@@ -330,29 +330,29 @@ window.TECHNICIANS = [
     }
   },
   {
-    "number": "131",
+    "number": "122",
     "category": "星际",
     "note": "",
-    "avatar": "assets/media/131/photo-3.jpg",
+    "avatar": "assets/media/122/photo-3.jpg",
     "media": [
       {
         "type": "image",
-        "title": "131 照片 1",
-        "src": "assets/media/131/photo-1.jpg"
+        "title": "122 照片 1",
+        "src": "assets/media/122/photo-1.jpg"
       },
       {
         "type": "image",
-        "title": "131 照片 2",
-        "src": "assets/media/131/photo-2.jpg"
+        "title": "122 照片 2",
+        "src": "assets/media/122/photo-2.jpg"
       },
       {
         "type": "image",
-        "title": "131 照片 3",
-        "src": "assets/media/131/photo-3.jpg"
+        "title": "122 照片 3",
+        "src": "assets/media/122/photo-3.jpg"
       }
     ],
     "info": {
-      "number": "131",
+      "number": "122",
       "scores": {
         "appearance": "6",
         "figure": "7",
@@ -787,7 +787,7 @@ window.TECHNICIANS = [
   {
     "number": "180",
     "category": "星际",
-    "note": "颜值 8 · 身材 8",
+    "note": "颜值 8 · 身材 8 · 尺度 6",
     "avatar": "assets/media/180/photo-1.jpg",
     "media": [
       {
@@ -807,7 +807,7 @@ window.TECHNICIANS = [
         "appearance": "8",
         "figure": "8",
         "cup": "",
-        "scale": "",
+        "scale": "6",
         "age": "",
         "singing": ""
       },
@@ -1247,7 +1247,7 @@ window.TECHNICIANS = [
   {
     "number": "826",
     "category": "",
-    "note": "颜值 7.5 · 身材 8",
+    "note": "颜值 7.5 · 身材 8 · 尺度 7",
     "avatar": "assets/media/826/photo-1.jpg",
     "media": [
       {
@@ -1262,7 +1262,7 @@ window.TECHNICIANS = [
         "appearance": "7.5",
         "figure": "8",
         "cup": "",
-        "scale": "",
+        "scale": "7",
         "age": "",
         "singing": ""
       },
