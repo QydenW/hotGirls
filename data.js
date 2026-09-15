@@ -205,6 +205,31 @@ window.TECHNICIANS = [
     }
   },
   {
+    "number": "111",
+    "category": "星际",
+    "note": "颜值 7.5 · 身材 7.3",
+    "avatar": "assets/media/111/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "111 照片 1",
+        "src": "assets/media/111/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "111",
+      "scores": {
+        "appearance": "7.5",
+        "figure": "7.3",
+        "cup": "",
+        "scale": "",
+        "age": "",
+        "singing": ""
+      },
+      "comment": ""
+    }
+  },
+  {
     "number": "112",
     "category": "",
     "note": "颜值 7.6 · 身材 7.3 · 尺度 3",
