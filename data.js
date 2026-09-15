@@ -1192,7 +1192,7 @@ window.TECHNICIANS = [
   {
     "number": "777",
     "category": "星际",
-    "note": "颜值 8 · 身材 8 · 外观年龄约 25",
+    "note": "颜值 7.6 · 身材 7.4 · 外观年龄约 24",
     "avatar": "assets/media/777/photo-1.jpg",
     "media": [
       {
@@ -1204,11 +1204,11 @@ window.TECHNICIANS = [
     "info": {
       "number": "777",
       "scores": {
-        "appearance": "8",
-        "figure": "8",
-        "cup": "D",
+        "appearance": "7.6",
+        "figure": "7.4",
+        "cup": "C",
         "scale": "",
-        "age": "25",
+        "age": "24",
         "singing": ""
       },
       "comment": "年龄、罩杯为照片外观估计"
