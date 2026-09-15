@@ -970,6 +970,31 @@ window.TECHNICIANS = [
     }
   },
   {
+    "number": "196",
+    "category": "",
+    "note": "颜值 7.4 · 身材 7",
+    "avatar": "assets/media/196/photo-1.jpg",
+    "media": [
+      {
+        "type": "image",
+        "title": "196 照片 1",
+        "src": "assets/media/196/photo-1.jpg"
+      }
+    ],
+    "info": {
+      "number": "196",
+      "scores": {
+        "appearance": "7.4",
+        "figure": "7",
+        "cup": "",
+        "scale": "",
+        "age": "",
+        "singing": ""
+      },
+      "comment": ""
+    }
+  },
+  {
     "number": "199",
     "category": "星际",
     "note": "颜值 6.8 · 身材 6.5 · 尺度 8",
