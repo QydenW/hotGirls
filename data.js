@@ -27,7 +27,7 @@ window.TECHNICIANS = [
   {
     "number": "100",
     "category": "星际",
-    "note": "颜值 7.8 · 身材 7.2",
+    "note": "颜值 7.8 · 身材 7.2 · 外观年龄约 23",
     "avatar": "assets/media/100/photo-1.jpg",
     "media": [
       {
@@ -41,12 +41,12 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.8",
         "figure": "7.2",
-        "cup": "",
+        "cup": "C",
         "scale": "",
-        "age": "",
+        "age": "23",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
@@ -77,7 +77,7 @@ window.TECHNICIANS = [
   {
     "number": "105",
     "category": "",
-    "note": "颜值 7.3 · 身材 6.8 · 尺度 3",
+    "note": "颜值 7.3 · 身材 6.8 · 尺度 3 · 外观年龄约 25",
     "avatar": "assets/media/105/photo-1.jpg",
     "media": [
       {
@@ -91,12 +91,12 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.3",
         "figure": "6.8",
-        "cup": "",
+        "cup": "C",
         "scale": "3",
-        "age": "",
+        "age": "25",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
@@ -207,7 +207,7 @@ window.TECHNICIANS = [
   {
     "number": "111",
     "category": "星际",
-    "note": "颜值 7.5 · 身材 7.3",
+    "note": "颜值 7.5 · 身材 7.3 · 外观年龄约 24",
     "avatar": "assets/media/111/photo-1.jpg",
     "media": [
       {
@@ -221,18 +221,18 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.5",
         "figure": "7.3",
-        "cup": "",
+        "cup": "C",
         "scale": "",
-        "age": "",
+        "age": "24",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
     "number": "112",
     "category": "",
-    "note": "颜值 7.6 · 身材 7.3 · 尺度 3",
+    "note": "颜值 7.6 · 身材 7.3 · 尺度 3 · 外观年龄约 23",
     "avatar": "assets/media/112/photo-1.jpg",
     "media": [
       {
@@ -246,12 +246,12 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.6",
         "figure": "7.3",
-        "cup": "",
+        "cup": "C",
         "scale": "3",
-        "age": "",
+        "age": "23",
         "singing": ""
       },
-      "comment": "人照不符"
+      "comment": "人照不符；年龄、罩杯为照片外观估计"
     }
   },
   {
@@ -282,7 +282,7 @@ window.TECHNICIANS = [
   {
     "number": "118",
     "category": "",
-    "note": "颜值 6.8 · 身材 7.2 · 尺度 6",
+    "note": "颜值 6.8 · 身材 7.2 · 尺度 6 · 外观年龄约 27",
     "avatar": "assets/media/118/cover.jpg",
     "media": [
       {
@@ -296,12 +296,12 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "6.8",
         "figure": "7.2",
-        "cup": "",
+        "cup": "B",
         "scale": "6",
-        "age": "",
+        "age": "27",
         "singing": ""
       },
-      "comment": "真人比照片好看一点"
+      "comment": "真人比照片好看一点；年龄、罩杯为视频外观估计"
     }
   },
   {
@@ -442,7 +442,7 @@ window.TECHNICIANS = [
   {
     "number": "126",
     "category": "",
-    "note": "颜值 7.4 · 身材 7.2",
+    "note": "颜值 7.4 · 身材 7.2 · 外观年龄约 24",
     "avatar": "assets/media/126/photo-1.jpg",
     "media": [
       {
@@ -458,10 +458,10 @@ window.TECHNICIANS = [
         "figure": "7.2",
         "cup": "",
         "scale": "",
-        "age": "",
+        "age": "24",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄为照片外观估计"
     }
   },
   {
@@ -687,7 +687,7 @@ window.TECHNICIANS = [
   {
     "number": "166",
     "category": "星际",
-    "note": "颜值 6 · 身材 6 · 尺度 6",
+    "note": "颜值 6 · 身材 6 · 尺度 6 · 外观年龄约 24",
     "avatar": "assets/media/166/photo-1.jpg",
     "media": [
       {
@@ -703,16 +703,16 @@ window.TECHNICIANS = [
         "figure": "6",
         "cup": "",
         "scale": "6",
-        "age": "",
+        "age": "24",
         "singing": ""
       },
-      "comment": "彝族帮"
+      "comment": "彝族帮；年龄为照片外观估计"
     }
   },
   {
     "number": "168",
     "category": "",
-    "note": "颜值 7.3 · 身材 7.2",
+    "note": "颜值 7.3 · 身材 7.2 · 外观年龄约 24",
     "avatar": "assets/media/168/photo-1.jpg",
     "media": [
       {
@@ -728,16 +728,16 @@ window.TECHNICIANS = [
         "figure": "7.2",
         "cup": "",
         "scale": "",
-        "age": "",
+        "age": "24",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄为照片外观估计"
     }
   },
   {
     "number": "169",
     "category": "",
-    "note": "颜值 7.5 · 身材 6.8",
+    "note": "颜值 7.5 · 身材 6.8 · 外观年龄约 23",
     "avatar": "assets/media/169/photo-1.jpg",
     "media": [
       {
@@ -753,16 +753,16 @@ window.TECHNICIANS = [
         "figure": "6.8",
         "cup": "",
         "scale": "",
-        "age": "",
+        "age": "23",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄为照片外观估计"
     }
   },
   {
     "number": "177",
     "category": "星际",
-    "note": "颜值 7.5 · 身材 7.5 · 尺度 3",
+    "note": "颜值 7.5 · 身材 7.5 · 尺度 3 · 外观年龄约 24",
     "avatar": "assets/media/177/photo-1.jpg",
     "media": [
       {
@@ -776,12 +776,12 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.5",
         "figure": "7.5",
-        "cup": "",
+        "cup": "C",
         "scale": "3",
-        "age": "",
+        "age": "24",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
@@ -812,7 +812,7 @@ window.TECHNICIANS = [
   {
     "number": "180",
     "category": "星际",
-    "note": "颜值 8 · 身材 8 · 尺度 6",
+    "note": "颜值 8 · 身材 8 · 尺度 6 · 外观年龄约 25",
     "avatar": "assets/media/180/photo-1.jpg",
     "media": [
       {
@@ -831,12 +831,12 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "8",
         "figure": "8",
-        "cup": "",
+        "cup": "C",
         "scale": "6",
-        "age": "",
+        "age": "25",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
@@ -972,7 +972,7 @@ window.TECHNICIANS = [
   {
     "number": "196",
     "category": "",
-    "note": "颜值 7.4 · 身材 7",
+    "note": "颜值 7.4 · 身材 7 · 外观年龄约 26",
     "avatar": "assets/media/196/photo-1.jpg",
     "media": [
       {
@@ -986,12 +986,12 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.4",
         "figure": "7",
-        "cup": "",
+        "cup": "B",
         "scale": "",
-        "age": "",
+        "age": "26",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
@@ -1057,7 +1057,7 @@ window.TECHNICIANS = [
   {
     "number": "333",
     "category": "",
-    "note": "颜值 7.4 · 身材 6.8",
+    "note": "颜值 7.4 · 身材 6.8 · 外观年龄约 23",
     "avatar": "assets/media/333/photo-1.jpg",
     "media": [
       {
@@ -1071,18 +1071,18 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.4",
         "figure": "6.8",
-        "cup": "",
+        "cup": "B",
         "scale": "",
-        "age": "",
+        "age": "23",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
     "number": "555",
     "category": "星际",
-    "note": "颜值 7.2 · 身材 7",
+    "note": "颜值 7.2 · 身材 7 · 外观年龄约 22",
     "avatar": "assets/media/555/photo-1.jpg",
     "media": [
       {
@@ -1096,18 +1096,18 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.2",
         "figure": "7",
-        "cup": "",
+        "cup": "B",
         "scale": "",
-        "age": "",
+        "age": "22",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
     "number": "611",
     "category": "",
-    "note": "颜值 7 · 身材 6.5",
+    "note": "颜值 7 · 身材 6.5 · 外观年龄约 26",
     "avatar": "assets/media/611/photo-1.jpg",
     "media": [
       {
@@ -1123,16 +1123,16 @@ window.TECHNICIANS = [
         "figure": "6.5",
         "cup": "",
         "scale": "",
-        "age": "",
+        "age": "26",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄为照片外观估计"
     }
   },
   {
     "number": "633",
     "category": "",
-    "note": "颜值 6.8 · 身材 6.5",
+    "note": "颜值 6.8 · 身材 6.5 · 外观年龄约 25",
     "avatar": "assets/media/633/photo-1.jpg",
     "media": [
       {
@@ -1148,10 +1148,10 @@ window.TECHNICIANS = [
         "figure": "6.5",
         "cup": "",
         "scale": "",
-        "age": "",
+        "age": "25",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄为照片外观估计"
     }
   },
   {
@@ -1192,7 +1192,7 @@ window.TECHNICIANS = [
   {
     "number": "777",
     "category": "星际",
-    "note": "颜值 8 · 身材 8",
+    "note": "颜值 8 · 身材 8 · 外观年龄约 25",
     "avatar": "assets/media/777/photo-1.jpg",
     "media": [
       {
@@ -1206,18 +1206,18 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "8",
         "figure": "8",
-        "cup": "",
+        "cup": "D",
         "scale": "",
-        "age": "",
+        "age": "25",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
     "number": "801",
     "category": "星际",
-    "note": "颜值 7 · 身材 7 · 尺度 5",
+    "note": "颜值 7 · 身材 7 · 尺度 5 · 外观年龄约 24",
     "avatar": "assets/media/801/photo-1.jpg",
     "media": [
       {
@@ -1231,18 +1231,18 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7",
         "figure": "7",
-        "cup": "",
+        "cup": "C",
         "scale": "5",
-        "age": "",
+        "age": "24",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
     "number": "806",
     "category": "星际",
-    "note": "颜值 7.5 · 身材 6.8",
+    "note": "颜值 7.5 · 身材 6.8 · 外观年龄约 25",
     "avatar": "assets/media/806/photo-1.jpg",
     "media": [
       {
@@ -1263,16 +1263,16 @@ window.TECHNICIANS = [
         "figure": "6.8",
         "cup": "",
         "scale": "",
-        "age": "",
+        "age": "25",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄为照片外观估计"
     }
   },
   {
     "number": "810",
     "category": "星际",
-    "note": "颜值 7 · 身材 7 · 尺度 4",
+    "note": "颜值 7 · 身材 7 · 尺度 4 · 外观年龄约 24",
     "avatar": "assets/media/810/photo-1.jpg",
     "media": [
       {
@@ -1286,18 +1286,18 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7",
         "figure": "7",
-        "cup": "",
+        "cup": "C",
         "scale": "4",
-        "age": "",
+        "age": "24",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
     "number": "826",
     "category": "",
-    "note": "颜值 7.5 · 身材 8 · 尺度 7",
+    "note": "颜值 7.5 · 身材 8 · 尺度 7 · 外观年龄约 25",
     "avatar": "assets/media/826/photo-1.jpg",
     "media": [
       {
@@ -1311,18 +1311,18 @@ window.TECHNICIANS = [
       "scores": {
         "appearance": "7.5",
         "figure": "8",
-        "cup": "",
+        "cup": "C",
         "scale": "7",
-        "age": "",
+        "age": "25",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄、罩杯为照片外观估计"
     }
   },
   {
     "number": "130",
     "category": "",
-    "note": "颜值 7 · 身材 6.5",
+    "note": "颜值 7 · 身材 6.5 · 外观年龄约 23",
     "avatar": "assets/media/130/photo-3.jpg",
     "media": [
       {
@@ -1348,10 +1348,10 @@ window.TECHNICIANS = [
         "figure": "6.5",
         "cup": "",
         "scale": "",
-        "age": "",
+        "age": "23",
         "singing": ""
       },
-      "comment": ""
+      "comment": "年龄为照片外观估计"
     }
   },
   {
