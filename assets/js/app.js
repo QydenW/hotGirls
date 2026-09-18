@@ -142,8 +142,29 @@ function switchViewer(delta) {
   renderViewerMedia();
 }
 
+function specsLine(tech) {
+  const scores = scoresOf(tech);
+  return [
+    scores.age ? scores.age + "岁" : "",
+    scores.appearance ? "颜值 " + scores.appearance : "",
+    figureOf(scores) ? "身材 " + figureOf(scores) : "",
+    cupOf(scores) ? cupOf(scores) + "杯" : "",
+    scaleOf(scores) ? "尺度 " + scaleOf(scores) : "",
+    singingOf(scores) ? "歌声 " + singingOf(scores) : ""
+  ].filter(Boolean).join(" · ");
+}
+
 function renderDetailNote(tech) {
   detailInfo.innerHTML = "";
+  const dossier = makeEl("div", "dossier");
+  infoItems(tech).forEach(([label, value]) => {
+    const item = makeEl("div", "dossier-item");
+    item.appendChild(makeEl("span", "dossier-label", label));
+    item.appendChild(makeEl("strong", "dossier-value", value));
+    dossier.appendChild(item);
+  });
+  detailInfo.appendChild(dossier);
+
   const comment = tech.info?.comment || "";
   if (!comment) return;
   const box = makeEl("section", "comment-box");
@@ -187,37 +208,25 @@ function renderCards() {
   sortedTechs().forEach((tech, techIndex) => {
     const card = makeEl("button", "card");
     card.type = "button";
+    card.style.animationDelay = Math.min(techIndex, 14) * 45 + "ms";
     card.addEventListener("click", () => openDetail(tech));
 
-    const avatar = makeEl("div", "avatar");
+    const photo = makeEl("div", "photo");
     const img = document.createElement("img");
     img.src = tech.avatar;
-    img.alt = "技师 " + tech.number + " 头像";
+    img.alt = "技师 " + tech.number + " 照片";
     img.loading = techIndex < 6 ? "eager" : "lazy";
     img.fetchPriority = techIndex < 6 ? "high" : "auto";
     img.decoding = "async";
-    avatar.appendChild(img);
+    photo.appendChild(img);
+    if (tech.category) photo.appendChild(makeEl("div", "seal", tech.category));
 
-    const head = makeEl("div", "card-head");
-    head.appendChild(makeEl("div", "number", tech.number));
-    if (tech.category) head.appendChild(makeEl("div", "tag", tech.category));
-    avatar.appendChild(head);
+    const plate = makeEl("div", "plate");
+    plate.appendChild(makeEl("div", "number", tech.number));
+    plate.appendChild(makeEl("div", "specs", specsLine(tech)));
+    photo.appendChild(plate);
 
-    const info = makeEl("div", "card-info");
-    const facts = makeEl("div", "facts");
-    infoItems(tech).forEach(([label, value]) => {
-      const item = makeEl("div", "fact");
-      item.appendChild(makeEl("span", "fact-label", label));
-      item.appendChild(makeEl("strong", "fact-value", value));
-      facts.appendChild(item);
-    });
-    if (facts.children.length) {
-      info.appendChild(facts);
-    } else {
-      info.appendChild(makeEl("div", "meta", "资料待补"));
-    }
-
-    card.append(avatar, info);
+    card.appendChild(photo);
     grid.appendChild(card);
   });
 }
@@ -233,8 +242,7 @@ function updateSortDirection() {
   const isDefault = currentSortField === "default";
   const isAscending = currentSortDirection === "asc";
   sortDirection.disabled = isDefault;
-  sortDirectionText.textContent = isAscending ? "从低到高" : "从高到低";
-  sortDirection.querySelector(".sort-arrow").textContent = isAscending ? "↑" : "↓";
+  sortDirectionText.textContent = isAscending ? "低→高" : "高→低";
   sortDirection.setAttribute(
     "aria-label",
     isAscending ? "当前为从低到高，点击切换为从高到低" : "当前为从高到低，点击切换为从低到高"
