@@ -81,10 +81,10 @@ dialog::backdrop { background: rgba(3, 4, 6, .82); backdrop-filter: blur(5px); }
 .comment-box { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; display: grid; gap: 6px; background: var(--surface-2); }
 .comment-title { color: var(--accent); font-size: 12px; font-weight: 800; }
 .comment-text { color: var(--ink); font-size: 14px; line-height: 1.6; }
-.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; align-items: start; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; align-items: start; }
 .media { overflow: hidden; border: 1px solid var(--line); border-radius: 15px; padding: 0; color: inherit; background: var(--surface); text-align: left; }
 .media img, .media video { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; display: block; background: #08090b; }
-.media-caption { padding: 10px 12px; color: var(--muted); font-size: 12px; }
+.media-caption { padding: 7px 9px; color: var(--muted); font-size: 11px; }
 .viewer { width: min(980px, calc(100vw - 16px)); background: #07080a; }
 .viewer-body { max-height: calc(100vh - 104px); overflow: auto; padding: 14px; display: grid; place-items: center; }
 .viewer-body img, .viewer-body video { max-width: 100%; max-height: calc(100vh - 134px); border-radius: 12px; background: #050505; }
