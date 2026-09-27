@@ -27,7 +27,7 @@ window.TECHNICIANS = [
   {
     "number": "100",
     "category": "星际",
-    "note": "颜值 7.8 · 身材 7.2 · 外观年龄约 23",
+    "note": "颜值 7.8 · 身材 7.2 · 尺度 3 · 外观年龄约 23",
     "avatar": "assets/media/100/photo-1.jpg",
     "media": [
       {
@@ -42,7 +42,7 @@ window.TECHNICIANS = [
         "appearance": "7.8",
         "figure": "7.2",
         "cup": "C",
-        "scale": "",
+        "scale": "3",
         "age": "23",
         "singing": ""
       },
