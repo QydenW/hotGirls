@@ -182,7 +182,7 @@ window.TECHNICIANS = [
   {
     "number": "109",
     "category": "星际",
-    "note": "颜值 6.8 · 身材 7 · 尺度 6",
+    "note": "颜值 5.5 · 身材 7 · 尺度 6",
     "avatar": "assets/media/109/photo-1.jpg",
     "media": [
       {
@@ -194,14 +194,14 @@ window.TECHNICIANS = [
     "info": {
       "number": "109",
       "scores": {
-        "appearance": "6.8",
+        "appearance": "5.5",
         "figure": "7",
         "cup": "B",
         "scale": "6",
-        "age": "25",
+        "age": "29",
         "singing": ""
       },
-      "comment": "彝族帮"
+      "comment": "身材为照片外观估计"
     }
   },
   {
