@@ -892,7 +892,7 @@ window.TECHNICIANS = [
   {
     "number": "188",
     "category": "星际",
-    "note": "颜值 6 · 身材 6 · 尺度 8",
+    "note": "颜值 7 · 身材 7 · 外观年龄约 24",
     "avatar": "assets/media/188/photo-1.jpg",
     "media": [
       {
@@ -904,14 +904,14 @@ window.TECHNICIANS = [
     "info": {
       "number": "188",
       "scores": {
-        "appearance": "6",
-        "figure": "6",
-        "cup": "",
-        "scale": "8",
-        "age": "34",
+        "appearance": "7",
+        "figure": "7",
+        "cup": "C",
+        "scale": "",
+        "age": "24",
         "singing": ""
       },
-      "comment": "曾经的王"
+      "comment": "年龄和罩杯为照片外观估计"
     }
   },
   {
